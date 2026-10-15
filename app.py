@@ -104,6 +104,16 @@ chart_data = df.set_index("Họ tên")[["Tổng kết"]]
 st.bar_chart(chart_data, y_label="Điểm tổng kết")
 
 st.caption("Ứng dụng quản lý điểm sinh viên")
+st.divider()
+
+st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 12px;">
+        Sinh viên thực hiện: Lê Anh Tài | MSSV: 060208001050
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
